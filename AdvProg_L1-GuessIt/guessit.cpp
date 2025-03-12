@@ -5,7 +5,6 @@
 
 using namespace std;
 
-
 /***
     Args:
         
@@ -14,7 +13,9 @@ using namespace std;
 ***/
 int generateRandomNumber() {
     // TODO: Return the random number in range 1 to 100
-    return 100;
+    int n;
+    n = rand()%(100-1)+1;
+    return n;
 }
 
 
